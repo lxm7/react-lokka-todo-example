@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import TodoTextInput from '../components/TodoTextInput'
+import TodoTextInput from './TodoTextInput'
 import classnames from 'classnames'
 
 export default class Todo extends React.Component {

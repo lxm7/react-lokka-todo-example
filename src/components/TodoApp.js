@@ -1,7 +1,7 @@
 import React from 'react'
 import TodoListFooter from './TodoListFooter'
-import AddTodo from '../containers/AddTodo'
-import TodoList from '../containers/TodoList'
+import AddTodo from './AddTodo'
+import TodoList from './TodoList'
 import Model from '../models/model'
 
 class TodoApp extends React.Component {
