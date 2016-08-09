@@ -18,6 +18,10 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel',
       exclude: /node_modules/
+    },
+    {
+      test: /\.json$/,
+      loader: "json-loader" // see http://stackoverflow.com/a/36297216
     }]
   },
   plugins: [
