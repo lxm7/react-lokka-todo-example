@@ -10,8 +10,12 @@ const todoFragment = `
 
 export default class Model {
   constructor () {
+    const headers = {
+      'x-graphcool-source': 'example:react-lokka-todo',
+    }
+
     this.client = new Lokka({
-      transport: new Transport('https://api.graph.cool/simple/v1/__PROJECT_ID__'),
+      transport: new Transport('https://api.graph.cool/simple/v1/__PROJECT_ID__', {headers}),
     })
   }
 
