@@ -11,7 +11,7 @@ const todoFragment = `
 export default class Model {
   constructor () {
     const headers = {
-      'x-graphcool-source': 'example:react-lokka-todo',
+      'SourceExample': 'example:react-lokka-todo',
     }
 
     this.client = new Lokka({
