@@ -74,11 +74,11 @@ export default class Model {
   getAll () {
     return this.client.query(`
       {
-        allTodos {
+        allTodoes {
           ${todoFragment}
         }
       }
     `)
-    .then(res => res.allTodos)
+    .then(res => res.allTodoes)
   }
 }
