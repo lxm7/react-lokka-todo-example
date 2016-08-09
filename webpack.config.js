@@ -6,6 +6,8 @@ module.exports = {
     publicPath: '/'
   },
   module: {
+    exprContextRegExp: /$^/,
+    exprContextCritical: false, // see https://github.com/andris9/encoding/issues/16#issuecomment-167376712
     preLoaders: [{
       test: /\.js$/,
       loader: 'eslint',
