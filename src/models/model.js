@@ -10,6 +10,8 @@ const todoFragment = `
 
 export default class Model {
   constructor () {
+    // The x-graphcool-source header is to let the server know that the example app has started.
+    // (Not necessary for normal projects)
     const headers = {
       'x-graphcool-source': 'example:react-lokka-todo',
     }
